@@ -3,15 +3,14 @@
 }
 
 body{
-    background-color: #cbd1bf;
+    background-color: #000000;
 }
 
 /*  main menu    */
 
 header{
-    margin-left: 650px;
     padding: 10px; 
-    background-image: linear-gradient(to right,#00000000, #06632e, #06632e);
+    background-color: #00000000;
     color: white;
     border-radius:5px;
 }
@@ -43,3 +42,22 @@ li.menu a:hover {
     border-color: #000;
 }
 
+/*  footer   */
+
+footer {
+    background-color: #222;
+    color: #fff;
+    font-size: 14px;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 999;
+}
+
+footer a {
+    color: rgb(36, 134, 90);
+    margin-right:5px;
+}
+/* footer  */
