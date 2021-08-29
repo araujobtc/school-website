@@ -4,22 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/style.login.css">
+    
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/style.login.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script>
+        $(function(){
+            $("#header").load("layout/header.html")
+            $("#footer").load("layout/footer.html")
+        });
+    </script>
+    
     <title>Araujo School - Entrar</title>
 </head>
 <body>
-    <header>
-        <ul id="mainmenu">
-            <li class="menu"><a href="index.html">Página Inicial</a></li>
-            <li class="menu"><a href="#about">Sobre</a></li>
-        </ul>
-    </header>
+    <div id="header"></div>
 
     <div id="boxlogin">
         <div id="loginarea">
             <div id="logoarea">
-                <img src="images/logo.png" alt="logo araujo school" id="logologin">
+                <img src="img/logo.png" alt="logo araujo school" id="logologin">
             <form action="">
                 </div>
                 <div id="emailarea">
@@ -29,16 +35,13 @@
                     <input type="password" name="password" class="login" placeholder="Senha">
                 </div>
                     <input type="submit" value="Entrar" id="loginbutton">
-                    <p id="plogin">
-                        <a href="#terms">Termos de Uso</a> | <a href="#register">Registra-se</a>
+                    <p id="p_login">
+                        <a href="#terms">Termos de Uso</a> | <a href="register.html">Registra-se</a>
                     </p>
             </form>
         </div>
     </div>
 
-    <footer>
-        <p>
-        Follow me : <a target="_blank"  href="https://www.linkedin.com/in/isabelle-ferreira-de-araujo/">LinkedIn</a>
-        </p>
-    </footer>
+    <div id="footer"></div>
+
 </body>
