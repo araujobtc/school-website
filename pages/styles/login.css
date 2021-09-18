@@ -1,4 +1,4 @@
-/*  box login   */
+/*  box log in   */
 
 div#boxlogin{
     background-color: #2f6447;
@@ -23,7 +23,7 @@ img#logologin{
     border-radius: 50%;
 } 
 
-/*  area de login   */
+/*  area de sign-up(in)   */
 
 input.login{
     width: 250px;
@@ -45,7 +45,7 @@ input.login{
 
 input#loginbutton{
     background-color: #111;
-    margin: 10px;
+    margin: 5px;
     border: 0px;
     border-radius: 5px;
     padding: 5px;
