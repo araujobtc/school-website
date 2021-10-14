@@ -1,4 +1,4 @@
-/*  box sign up  */
+/*  box sign up-in  */
 
 div#boxSign{
     background-color: #5e94c0;
@@ -34,7 +34,6 @@ input.sign{
     margin: 3px;
     padding: 5px;
     color: black;
-    font-size: 12pt;
 }
 
 ::placeholder{
