@@ -1,0 +1,24 @@
+{
+  "name": "school-website",
+  "version": "1.0.0",
+  "description": "Projeto pessoal para teste de habilidades.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/araujobtc/school-website.git"
+  },
+  "author": "Isabelle Araujo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/araujobtc/school-website/issues"
+  },
+  "homepage": "https://github.com/araujobtc/school-website#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2",
+    "node": "^17.3.0"
+  }
+}
