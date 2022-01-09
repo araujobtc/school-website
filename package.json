@@ -4,6 +4,7 @@
   "description": "Projeto pessoal para teste de habilidades.",
   "main": "app.js",
   "scripts": {
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +20,7 @@
   "dependencies": {
     "express": "^4.17.2",
     "express-handlebars": "^6.0.2",
-    "node": "^17.3.0"
+    "node": "^17.3.0",
+    "nodemon": "^2.0.15"
   }
 }
