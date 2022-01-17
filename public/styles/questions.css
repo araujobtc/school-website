@@ -1,7 +1,6 @@
 #mainbox{
     background-color: #5e94c0;
-    display: flex;    
-    border-radius: 10px;
+    display: flex;
     /* size */
     width: 1000px;
     /*  position   */

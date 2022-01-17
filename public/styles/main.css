@@ -1,31 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
 *{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    box-sizing: border-box;
 }
 
 body{
     background-color: #1C1C1C;
 }
 
-a{
-    color: #1d1d8b;
-}
-
 /*  main menu    */
 
-header{
+.mainmenuBar{
     padding: 10px; 
     background-color: #00000000;
     color: white;
-    border-radius:5px;
 }
 
-ul#mainmenu{
+.menuBar{
     margin: 0px;
     padding: 0px;
     text-align: right;
 }
 
-li.menu{
+.menu{
     list-style: none; 
     margin: 0px;
     display: inline;
@@ -33,16 +34,13 @@ li.menu{
 
 li.menu a {
     padding: 10px; 
-    margin: 0px;
-    border: 0px; 
+    border: 0; 
     background: rgba(33, 0, 153, 0);
     text-decoration: none;
     color:#FFF;
-    border-radius:5px;
 }
 li.menu a:hover {
     background: #4682B48c;
-    color: rgb(255, 255, 255); 
     border-color: #000;
 }
 
@@ -52,15 +50,8 @@ footer {
     background-color: #333;
     color: #fff;
     font-size: 14px;
-    bottom: 0;
-    position: fixed;
-    left: 0;
-    right: 0;
+    position: static;
     text-align: center;
     z-index: 999;
-}
-
-footer a {
-    color: #a8a8c9;
-    margin-right:5px;
+    border-radius: 0;
 }

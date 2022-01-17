@@ -1,0 +1,49 @@
+<div class="containerLogin">
+    <div class="wrapper">
+        <div class="blueBg">
+            <div class="box signin">
+                <h2>Você já possui uma conta?</h2>
+                <button class="signinBtn">Entre</button>
+            </div>
+            <div class="box signup">
+                <h2>Não possui uma conta?</h2>
+                <button class="signupBtn">Registre-se</button>
+            </div>
+        </div>
+        <div class="formBox">
+            <div class="form signinForm">
+                <form action="" method="">
+                    <h3>Entrar</h3>
+                    <input type="text" placeholder="Usuário">
+                    <input type="password" placeholder="Senha">
+                    <input type="submit" value="Entrar">
+                    <a href="#" class="forgot">Esqueceu sua senha?</a>
+                </form>
+            </div>
+    
+            <div class="form signupForm">
+                <form action="" method="">
+                    <h3>Registrar</h3>
+                    <input type="text" placeholder="Usuário">
+                    <input type="email" placeholder="Email">
+                    <input type="password" placeholder="Senha">
+                    <input type="password" placeholder="Confirme a senha">
+                    <input type="submit" value="Registrar">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    const signinBtn = document.querySelector('.signinBtn');
+    const signupBtn = document.querySelector('.signupBtn')
+    const formBox = document.querySelector('.formBox');
+    
+    signupBtn.onclick = function(){
+        formBox.classList.add('active')
+    }
+    signinBtn.onclick = function(){
+        formBox.classList.remove('active')
+    }
+</script>
