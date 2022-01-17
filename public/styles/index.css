@@ -1,0 +1,141 @@
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title h2{
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.title h2::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    width: 50px;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.container{
+    width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container .linkFaq{
+    color: #ace7f185;
+    background: #33333370;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 2px;
+    margin: 20px 0;
+}
+
+.content .serviceBox{    
+    position: relative;
+    width: 180px;
+    height: 180px;
+    margin: 10px;
+    object-fit: cover;   
+    background: #4683b4;
+
+}
+
+.content .serviceBox .infoBox{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #4683b4;
+}
+
+.content .serviceBox .infoBox h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+    padding: 10px;
+    
+    background: #4683b4;
+    border-radius: 0;
+    font-size: 24px;
+}
+
+.content .serviceBox:hover .infoBox h2{
+    opacity: 0;
+}
+.content .serviceBox .infoBox p{
+    font-size: 12px;
+    text-align: center;
+}
+
+.content .serviceBox .infoBox{
+    position: absolute;
+    bottom: 20px;
+    left: 10%;
+    width: 80%;
+    height: 65px;
+    transition: 0.5s;
+    overflow: hidden;
+    padding: 15px;
+}
+.content .serviceBox:hover .infoBox{
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background: #1c1c1c;    
+}
+
+@media (max-width: 600px){
+    
+    .container{
+        width: 400px;
+    }
+    .content{
+        grid-gap: 5px;
+        margin: 15px 0;
+    }
+    .content .serviceBox{
+        width: 150px;
+        height: 150px;
+        margin: 10px;
+    }
+    .content .serviceBox .infoBox p{
+        font-size: 10px;
+    }
+    .content .serviceBox .infoBox h2{
+        font-size: 20px;
+    }
+}
