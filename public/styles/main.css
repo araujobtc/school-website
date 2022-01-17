@@ -6,52 +6,50 @@
     font-family: 'Poppins', sans-serif;
     border-radius: 10px;
     box-sizing: border-box;
+    color: #fff;
 }
 
 body{
     background-color: #1C1C1C;
 }
 
-/*  main menu    */
+/*  menu bar    */
 
 .mainmenuBar{
-    padding: 10px; 
-    background-color: #00000000;
-    color: white;
-}
-
-.menuBar{
-    margin: 0px;
-    padding: 0px;
+    padding: 10px;
     text-align: right;
 }
 
 .menu{
     list-style: none; 
-    margin: 0px;
     display: inline;
 }
 
-li.menu a {
+.menu a {
     padding: 10px; 
     border: 0; 
-    background: rgba(33, 0, 153, 0);
     text-decoration: none;
-    color:#FFF;
 }
-li.menu a:hover {
+.menu a:hover {
     background: #4682B48c;
-    border-color: #000;
 }
 
 /*  footer   */
 
 footer {
-    background-color: #333;
-    color: #fff;
-    font-size: 14px;
     position: static;
-    text-align: center;
-    z-index: 999;
+    background-color: #333;
     border-radius: 0;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.createBy{
+    padding: 10px;
+    font-weight: 100;
+    font-size: 12px;
 }
