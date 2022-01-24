@@ -1,4 +1,4 @@
-.services{
+.about{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,7 +54,7 @@
     margin: 20px 0;
 }
 
-.content .serviceBox{    
+.content .aboutBox{    
     position: relative;
     width: 180px;
     height: 180px;
@@ -64,7 +64,7 @@
 
 }
 
-.content .serviceBox .infoBox{
+.content .aboutBox .infoBox{
     position: absolute;
     bottom: 0;
     left: 0;
@@ -73,7 +73,7 @@
     border: 1px solid #4683b4;
 }
 
-.content .serviceBox .infoBox h2{
+.content .aboutBox .infoBox h2{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -92,15 +92,15 @@
     font-size: 24px;
 }
 
-.content .serviceBox:hover .infoBox h2{
+.content .aboutBox:hover .infoBox h2{
     opacity: 0;
 }
-.content .serviceBox .infoBox p{
+.content .aboutBox .infoBox p{
     font-size: 12px;
     text-align: center;
 }
 
-.content .serviceBox .infoBox{
+.content .aboutBox .infoBox{
     position: absolute;
     bottom: 20px;
     left: 10%;
@@ -110,7 +110,7 @@
     overflow: hidden;
     padding: 15px;
 }
-.content .serviceBox:hover .infoBox{
+.content .aboutBox:hover .infoBox{
     height: 100%;
     width: 100%;
     bottom: 0;
@@ -127,15 +127,15 @@
         grid-gap: 5px;
         margin: 15px 0;
     }
-    .content .serviceBox{
+    .content .aboutBox{
         width: 150px;
         height: 150px;
         margin: 10px;
     }
-    .content .serviceBox .infoBox p{
+    .content .aboutBox .infoBox p{
         font-size: 10px;
     }
-    .content .serviceBox .infoBox h2{
+    .content .aboutBox .infoBox h2{
         font-size: 20px;
     }
 }
